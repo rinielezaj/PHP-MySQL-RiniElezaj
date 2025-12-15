@@ -36,5 +36,7 @@ if(isset($_POST['submit'])){
         <input type="text" name="email" placeholder="Email">
         <button type="submit" name="submit">Add</button>
     </form>
+
+    <a href="dashboard.php">Dashboard</a>
 </body>
 </html>
