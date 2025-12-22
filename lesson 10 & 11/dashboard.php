@@ -13,7 +13,10 @@
 
     $users=$getUsers->fetchAll();
 
-    ?>    
+    ?>
+    <nav>
+        <a href="logout.php" class="nav-link">Sign Out</a>
+    </nav>
 <table>
     <thead>
         <th>ID</th>
