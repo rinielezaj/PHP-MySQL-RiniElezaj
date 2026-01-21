@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
     $insertMovie->bindParam(':movie_rating',$movie_rating);
     $insertMovie->bindParam(':movie_image',$movie_image);
 
-    $inserMovie->execute();
+    $insertMovie->execute();
 
     header('Location:list_movies.php');
 }
