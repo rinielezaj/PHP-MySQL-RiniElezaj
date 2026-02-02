@@ -1,0 +1,87 @@
+/* ===== Global Reset ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background: #f6f7f8;
+  color: #1a1a1b;
+}
+
+/* ===== Layout Container ===== */
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== Header / Navbar ===== */
+.navbar {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #0079d3;
+}
+
+/* ===== Forum Boxes ===== */
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* ===== Category Title ===== */
+.card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* ===== Thread Links ===== */
+.thread-title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #0079d3;
+  text-decoration: none;
+}
+
+.thread-title:hover {
+  text-decoration: underline;
+}
+
+/* ===== Meta Info (RYM vibe) ===== */
+.meta {
+  font-size: 13px;
+  color: #666;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: #0079d3;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* ===== Forms ===== */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
